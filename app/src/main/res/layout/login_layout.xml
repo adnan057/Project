@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="iTa&apos;leem"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:textSize="60sp"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="#077270" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_matric"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="88dp"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        android:hint="Matric No"
+        android:textColorHint="#bbbbbb"
+        android:drawableLeft="@drawable/user"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/text_pass"
+        android:layout_below="@+id/text_matric"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:hint="Password"
+        android:textColorHint="#bbbbbb"
+        android:drawableLeft="@drawable/password"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/button"
+        android:layout_marginTop="45dp"
+        android:background="#095c5a"
+        android:layout_below="@+id/text_pass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"/>
+</RelativeLayout>
